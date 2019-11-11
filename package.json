@@ -1,0 +1,36 @@
+{
+  "name": "dae-mockcli",
+  "version": "1.0.1",
+  "description": "mock系统脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mk": "./bin/cli.js"
+  },
+  "keywords": [
+    "cli",
+    "mock"
+  ],
+  "author": "fumq",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fumq-dae/mock-cli.git"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^4.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^8.1.0",
+    "handlebars": "^4.5.1",
+    "inquirer": "^7.0.0",
+    "log-symbols": "^3.0.0",
+    "ora": "^4.0.2",
+    "which": "^2.0.1"
+  },
+  "devDependencies": {
+    "glob": "^7.1.6"
+  }
+}
