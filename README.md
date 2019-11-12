@@ -10,10 +10,12 @@
 ### 使用
 ---
 >mk new <ProjectName> [options]
-cd  <ProjectName>
-mk run
+>cd  <ProjectName>
+>mk run
 
 [options]：--watch true/false --port 3000
+
+
 
 
 
